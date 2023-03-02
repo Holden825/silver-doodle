@@ -172,8 +172,8 @@
 
     // 合并模块
     const total = goodsList.reduce((prve, item) => prve + (item.price * 100 * item.count) / 100, 0)
-    document.querySelector('.amount').innerHTML = total.toFixed(2)
-
+    document.querySelector('.amount').innerHTML = total.toFixed(1)
+    console.log(第二次修改)
 
 
 
